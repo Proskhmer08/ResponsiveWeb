@@ -19,7 +19,7 @@ body {
 }
 
 .banner h1 {
-    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     color: coral;
     text-align: center;
     padding: 2rem;
