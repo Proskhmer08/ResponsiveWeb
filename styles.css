@@ -1,0 +1,135 @@
+body {
+    background-color: lightsalmon;
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    font-size: 16px;
+    
+}
+
+.title {
+    
+    display: block;
+    padding-top: 1rem;
+    background-position: center;
+  
+}
+
+.title h1 {
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    color: coral;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 8rem;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.intro {
+    margin: 1rem auto;
+}
+
+.intro h2 {
+    color: yellow;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    font-weight: bold;
+}
+
+.description {
+    color: white;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.quote {
+    padding: 2rem 0;
+}
+
+.quote h2 {
+    padding: 3rem;
+    color: yellow;
+    font-family: montserrat;
+    font-size: 3rem;
+    text-align: center;
+    background-color: teal;
+    
+}
+
+.image-container1 {
+    display: flex;
+    
+}
+
+.image-container2 {
+    display: flex;  
+     
+}
+.image-container1 image {
+    flex-basis: auto;
+}
+
+img {
+    max-width: 497px;
+    height: 350px;
+}
+
+.image1 {
+    flex:3;
+    order:2;
+   
+}
+.image2 {
+    flex:1;
+    order:3;
+    
+}
+.image3{
+    flex:3;
+    order:1;
+}
+
+.image4 {
+    flex:3;
+    order:2;
+}
+.image5 {
+    flex:1;
+    order:3;
+}
+.image6{
+    flex:3;
+    order:1;
+}
+
+@media only screen and (min-width: 600px){
+    display: flex;
+}
+
+header {
+    background-color: teal;
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    
+}
+
+.join {
+    color: yellow;
+    font-family: montserrat;
+    font-size: 2rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.bar {
+    background-color: teal;
+    display: flex;
+}
+
+
+li {
+    color: lightsalmon;
+    list-style: none;
+    display: inline-block;
+}
