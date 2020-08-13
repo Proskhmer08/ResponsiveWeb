@@ -3,18 +3,21 @@ body {
     font-family: Montserrat, sans-serif;
     margin: 0;
     font-size: 16px;
-    
+    box-sizing: border-box;
 }
 
-.title {
-    
+.banner {
     display: block;
+    width: 100%;
     padding-top: 1rem;
     background-position: center;
-  
+    background-image: url(./resources/jan-rosolino-KdzvwIW5gXY-unsplash.jpg);
+    background-size: cover;
+    height: 31rem;
+    background-repeat: no-repeat;
 }
 
-.title h1 {
+.banner h1 {
     background-color: rgba(0.5, 0.5, 0.5, 0.5);
     color: coral;
     text-align: center;
@@ -22,6 +25,9 @@ body {
     margin-top: 8rem;
     font-size: 2rem;
     padding: 2rem;
+    position: relative;
+    top: 20%;
+    
 }
 
 .intro {
@@ -101,8 +107,17 @@ img {
     order:1;
 }
 
-@media only screen and (min-width: 600px){
-    display: flex;
+@media only screen and (max-width: 480px){
+    .image-container1 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .image-container2 {
+        display: flex;  
+         flex-direction: column;
+    }
 }
 
 header {
