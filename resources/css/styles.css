@@ -14,7 +14,7 @@ body {
     width: 100%;
     padding-top: 1rem;
     background-position: center;
-    background-image: url("https://imgproc.airliners.net/photos/airliners/3/4/1/6105143.jpg?v=v4a7c9b75734");
+    background-image: url('/Users/gekko/Desktop/Online Classes/Codecademy/Web Development/starting/ResponsiveWeb/resources/lukas-souza-1xMn4l1l-Rg-unsplash.jpg');
     background-size: cover;
     height: 31rem;
     background-repeat: no-repeat;
